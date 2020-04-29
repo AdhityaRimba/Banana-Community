@@ -1,5 +1,6 @@
 body {
 	background-color: orange;
+	overflow-x:hidden
 }
 
 .font-main {
@@ -42,4 +43,21 @@ body {
 		width: 200px;
 		height: 200px;
 	}
+}
+
+.bubble {
+	width: 100px;
+	height: 100px;
+	border-radius: 50% 50%;
+	background-color: black;
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	cursor: pointer;
+	transition: width 1s, height 1s;
+}
+
+.bubble:hover {
+	width: 130px;
+	height: 130px;
 }
